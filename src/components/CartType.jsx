@@ -24,7 +24,7 @@ const CartType = ({ sp }) => {
             </button>
           </div>
         </div>
-        <div className="ml-auto">
+        <div className="ml-auto mr-7">
           <h3 className="text-lg font-bold text-gray-900">
             ${sp.tp.toFixed(2)}
           </h3>
