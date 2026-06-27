@@ -33,7 +33,7 @@ const ComF = ({ fc = [], buttonText, fd, onSubmit, sfd }) => {
           <ComI
             type={fk.type}
             placeholder={fk.placeholder}
-            value={gfd[fk.name]}
+            value={fd[fk.name]}
             name={fk.name}
             onChange={(e) =>
               sfd({

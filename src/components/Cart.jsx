@@ -23,7 +23,7 @@ const Cart = () => {
           <h3 className="text-xl font-extrabold text-gray-950 border-b border-gray-300 pb-2">
             Order Summary
           </h3>
-          <ul className="text-gray-700 mt-4 space-y-2">
+          <ul className="text-gray-700 mt-4">
             <p className="flex flex-wrap gap-4 text-sm font-bold">
               Total{" "}
               <span>

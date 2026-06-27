@@ -66,7 +66,7 @@ function Sp({ children }) {
   }
   useEffect(() => {
     fp();
-    sct(JSON.parse(localStorage.getItem("copy") || []));
+    sct(JSON.parse(localStorage.getItem("copy") || "[]"));
   }, []);
   console.log(ct);
   return (

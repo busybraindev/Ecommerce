@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import ProductList from "./components/ProductList";
 import ProductDet from "./components/ProductDet";
 import Cart from "./components/Cart";
+import { Navigate } from "react-router-dom";
 
 const App = () => {
   return (
@@ -11,6 +12,10 @@ const App = () => {
         <Route path="/pl" element={<ProductList></ProductList>}></Route>
         <Route path="/pd/:id" element={<ProductDet></ProductDet>}></Route>
         <Route path="/ct" element={<Cart></Cart>}></Route>
+        <Route
+          path="*"
+          element={<Navigate to="/pl" replace></Navigate>}
+        ></Route>
       </Routes>
     </div>
   );

@@ -18,7 +18,7 @@ const ProductList = () => {
             Our Featured Products
           </h2>
         </div>
-        <div className="grid grid-cols-2 gap-5 mt-10 lg: mt-16 lg:gap-8 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-5 mt-10 lg:mt-16 lg:gap-8 lg:grid-cols-4">
           {lp && lp.length > 0 ? (
             lp.map((sp) => <ProductType sp={sp}></ProductType>)
           ) : (
